@@ -1,0 +1,24 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "@components": "./src/components",
+          "@hooks": "./src/hooks",
+          "@layout": "./src/layout",
+          "@utils": "./src/utils",
+          "@constants": "./src/constants",
+          "@helpers": "./src/helpers",
+          "@providers": "./src/providers",
+          "@theme": "./src/theme",
+          "@typeDefs": "./src/types",
+          "@services": "./src/services",
+          "@apollo": "./apollo/index"
+        }
+      }
+    ],
+  ]
+}
